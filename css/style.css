@@ -1,0 +1,345 @@
+body {
+  font-family: "Comfortaa", cursive;
+}
+
+header {
+  z-index: 4;
+  width: 100vw;
+  position: fixed;
+  box-shadow: 2px 1px 15px -1px #000000;
+}
+
+.logo-brc {
+  width: 80px;
+  height: 67px;
+  margin-bottom: -10px;
+  padding-bottom: 5px;
+}
+
+.navbar {
+  
+  background: rgb(96, 195, 255);
+  background: radial-gradient(
+    circle,
+    rgba(96, 195, 255, 1) 0%,
+    rgba(52, 172, 255, 0.7259278711484594) 100%
+  );
+}
+
+.navbar-nav {
+  padding-top: 10px;
+}
+.active {
+  border-bottom: 1px solid white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.788);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+#carousel-contact img {
+  filter: grayscale(90%);
+}
+#main .carousel-inner video {
+  margin-top: 84px;
+  max-height: 80vh;
+  object-fit: cover;
+  filter: grayscale(20%);
+}
+#main .carousel-inner img {
+  margin-top: 84px;
+  max-height: 80vh;
+  object-fit: cover;
+  filter: grayscale(20%);
+}
+
+
+.overlay {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: 0%;
+  right: 0%;
+  bottom: 50%;
+  /* color: white; */
+  font-size: 45px;
+  color: white;
+background: #232323;
+text-shadow: 0 0 5px black, 0 0 10px rgb(43, 43, 43), 0 0 15px white, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 55px #000000, 0 0 75px #000000;
+}
+.overlay-two {
+  position: absolute;
+  z-index: 3;
+  top: 40%;
+  left: 0%;
+  right: 0%;
+  bottom: 60%;
+  color: #FFFFFF;
+background: #996D6D;
+text-shadow: #474747 3px 5px 2px;
+font-size: 50px;
+  
+}
+
+.overlay-three {
+  position: absolute;
+  z-index: 3;
+  top: 40%;
+  left: 0%;
+  right: 0%;
+  bottom: 60%;
+  color: white;
+background: black;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+text-shadow: 0px 3px 3px rgba(14, 12, 12, 0.5), 4px 1px 0px rgba(2, 2, 2, 0.65);
+
+font-size: 70px;
+
+}
+
+#carousel-contact img {
+  filter: grayscale(70%) !important;
+}
+
+
+.card {
+  margin: 15px;
+  background-color: rgb(243, 243, 243);
+}
+.btn-form {
+  color: white;
+  background: rgb(96, 195, 255);
+}
+
+.btn-form:hover {
+  color: white;
+  background: rgb(12, 162, 255);
+  }
+
+.card-best {
+ box-shadow: 2px 1px 15px -1px #999999;
+}
+
+.card-best img {
+  object-fit: cover;
+  height: 200px;
+  /* width: 287px ; */
+}
+
+.card-best:hover {
+  transform: scale(1.05) ;
+  transition: 0.3s;
+}
+.carousel-item img {
+  
+  object-fit: cover;
+  justify-content: center;
+}
+
+.carousel-bajo img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+footer {
+  background: rgb(96, 195, 255);
+  background: radial-gradient(
+    circle,
+    rgba(96, 195, 255, 1) 0%,
+    rgba(52, 172, 255, 0.7259278711484594) 100%
+  );
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.img-ministerio img {
+  width: 100%;
+  height: 70px;
+}
+
+.img-ministerio img:hover {
+  opacity: 0.7;
+}
+
+
+
+.lista-politicas ul {
+  list-style: none;  
+}
+.derechos, .lista-politicas-item a{
+ text-decoration: none;
+ color: white;
+ font-size: 13px;
+}
+
+.lista-politicas-item a:hover {
+  opacity: 0.7;
+}
+/* --- contacto--- */
+
+
+.redes-contacto {
+  font-size: 35px;
+}
+
+.redes-contacto ul{
+  list-style: none;
+  
+}
+.redes-btn {
+  display: inline-block;
+}
+
+.redes-btn:hover {
+  transform: scale(1.1) ;
+  transition: 0.5s;
+}
+
+/* .redes-btn a:active {
+  
+  
+
+} */
+
+
+.redes a:hover {
+  opacity: 0.6;
+}
+
+.redes a {
+  text-decoration:none;
+  color: white;
+  margin-left: 9px;
+  margin-right: 9px;
+  font-size: 35px;
+}
+
+/* 
+.redes-contacto a:hover {
+  opacity: 0.7;
+  
+
+} */
+
+.twitter {
+  background-color: #00acee;
+  border-radius: 5px;    
+    
+    border: 0.5px solid #00acee;
+
+
+}
+
+
+
+.instagram {
+  background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);;
+  border-radius: 5px;    
+    
+    border: 0.5px solid radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
+}
+
+.facebook {
+  background-color: #3b5998;
+  border-radius: 5px;    
+    
+    border: 0.5px solid #3b5998;
+
+}
+.redes-contacto a {
+  text-decoration:none;
+  margin-left: 25px;
+  margin-right: 25px;
+  color: white;
+  padding: 6px 10px;
+    
+}
+
+.text-redes {
+  font-size: 22px;
+}
+
+
+
+textarea {
+  resize: none;
+}
+
+
+.whatsapp {
+  position: fixed; 
+  
+  padding: 3px 6px;
+  bottom: 30px;
+  right: 10px;
+  border: 4px solid rgb(79, 206, 93);
+  background-color: rgb(79, 206, 93);
+  border-radius: 100%;
+  
+}
+
+.whatsapp a {
+  color: white;
+  text-decoration: none;
+  font-size: 9px;
+}
+
+.whatsapp :hover{
+  transform: scale(1.1) ;
+  transition: 0.5s;
+}
+
+/* -----Informacion---- */
+.conteiner{
+  margin-left: 60px;
+  margin-right: 60px;
+
+}
+.info {
+  background-color: rgb(243, 243, 243);
+  padding: 0;
+}
+
+.imginfo {
+  width: 600px;
+  height: 600px;
+}
+
+.card-info img {
+  height: 420px;
+  object-fit: cover;
+  
+
+
+}
+
+.img-nosotros {
+ 
+  height: 350px;
+  width: 100%;
+  border: 10px solid rgb(199, 190, 190);
+  object-fit: cover;
+}
+
+.avatar {
+  position: relative;
+  margin-top: -120px;
+  width: 190px;
+  height: 190px;
+  border-radius: 100%;
+  border: 3px solid rgb(165,160,160);
+}
+
+.error {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 90px;
+}
